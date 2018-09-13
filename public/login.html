@@ -2,45 +2,46 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="login.css">
     <title>Welcome to Airplane BnB!</title>
   </head>
-  <body>
+  <body class="loginBody">
     <div class="row">
-  <div class="col s12 m8 offset-m2">
-    <h1 id="greeting" align="center" class="song">Welcome to Airplane BnB!</h1>
-  </div>
-</div>
-<div class="row">
-  <form class="col s12" action="/footnotes/signup" method="post">
-    <div class="card  z-depth-4 blue-grey darken-1 col s6 offset-s3">
-      <div class="row">
-        <div class="input-field col s6 offset-s3">
-          <input placeholder="What should we call you?" id="first_name" type="text" class="validate" name="first_name" required="" aria-required="true">
-          <label for="first_name" class="lato">User Name</label>
-        </div>
+      <div class="col s12 m8 offset-m2">
+        <h1 id="greeting" align="center" class="song">Welcome to Airplane BnB!</h1>
       </div>
-      <div class="row">
-        <div class="input-field col s6 offset-s3">
-          <input placeholder="We won't send you junk" id="email" type="email" class="validate" name="email">
-          <label for="email" class="lato">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s6 offset-s3">
-          <input placeholder="BatmanShadow696969" id="hashed_pw" type="password" class="validate" name="hashed_pw" required="" aria-required="true">
-          <label for="password" class="lato">Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s6 offset-s3">
-          <input placeholder="Passwords must match" id="password2" type="password" class="validate" name="hashed_pw" required="" aria-required="true">
-          <label for="password" class="lato">Confirm Password</label>
-        </div>
-      </div>
-      <a id="login" class="waves-effect waves-light btn-large z-depth-4 col s6 offset-s3 white lato" type='submit'><i class="material-icons right">school</i>SIGN UP</a>
     </div>
-  </form>
-</div>
-
+    <div class="loginForm row">
+      <form class="col s12" action="/footnotes/signup" method="post">
+        <div class="card  z-depth-4 blue-grey darken-1 col s6 offset-s3">
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <input placeholder="Username?" id="first_name" type="text" class="validate" name="first_name" required="" aria-required="true">
+              <label for="first_name" class="lato">User Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <input placeholder="We won't send you junk" id="email" type="email" class="validate" name="email">
+              <label for="email" class="lato">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <input placeholder="Select Password" id="hashed_pw" type="password" class="validate" name="hashed_pw" required="" aria-required="true">
+              <label for="password" class="lato">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6 offset-s3">
+              <input placeholder="Passwords must match" id="password2" type="password" class="validate" name="hashed_pw" required="" aria-required="true">
+              <label for="password" class="lato">Confirm Password</label>
+            </div>
+          </div>
+          <a id="login" class="waves-effect waves-light btn-large z-depth-4 col s6 offset-s3 white lato" type='submit'>SIGN UP</a>
+        </div>
+      </form>
+      <h4 align="center">Hangars across the country are available to rent. Please log in to see availabilities.</h4>
+    </div>
   </body>
 </html>

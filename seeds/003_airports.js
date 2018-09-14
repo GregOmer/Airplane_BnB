@@ -4,14 +4,14 @@ exports.seed = function(knex, Promise) {
       return knex('airports').insert([{
           id: 1,
           ap_name: 'Vance Brand Municipal Airport',
-          ap_county: 'Boulder',
+          ap_zip: 80503,
           ap_state: 'CO',
           runway_length: '4800ft'
         },
         {
           id: 2,
           ap_name: 'Boulder Municipal Airport',
-          ap_county: 'Boulder',
+          ap_zip: 80301,
           ap_state: 'CO',
           runway_length: '4100ft'
         },

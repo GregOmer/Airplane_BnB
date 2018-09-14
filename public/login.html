@@ -2,46 +2,49 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="login.css">
-    <title>Welcome to Airplane BnB!</title>
+    <title>Airplane BnB</title>
   </head>
   <body class="loginBody">
     <div class="row">
-      <div class="col s12 m8 offset-m2">
-        <h1 id="greeting" align="center" class="song">Welcome to Airplane BnB!</h1>
+      <div>
+        <h1 align="center">Welcome to Airplane BnB!</h1>
       </div>
     </div>
-    <div class="loginForm row">
-      <form class="col s12" action="/footnotes/signup" method="post">
-        <div class="card  z-depth-4 blue-grey darken-1 col s6 offset-s3">
+    <div class="loginForm row col 1 offset-1">
+      <form class="row" action="/footnotes/signup" method="post">
+        <div id="inputBody" class="col s6 offset-s3">
           <div class="row">
-            <div class="input-field col s6 offset-s3">
-              <input placeholder="Username?" id="first_name" type="text" class="validate" name="first_name" required="" aria-required="true">
-              <label for="first_name" class="lato">User Name</label>
+            <div class="input-field">
+              <input placeholder="Whats your handle?" id="first_name" type="text" class="validate" name="first_name" required="" aria-required="true">
+              <label for="first_name">User Name</label>
             </div>
           </div>
           <div class="row">
-            <div class="input-field col s6 offset-s3">
+            <div class="input-field">
               <input placeholder="We won't send you junk" id="email" type="email" class="validate" name="email">
-              <label for="email" class="lato">Email</label>
+              <label for="email">Email</label>
             </div>
           </div>
           <div class="row">
-            <div class="input-field col s6 offset-s3">
+            <div class="input-field">
               <input placeholder="Select Password" id="hashed_pw" type="password" class="validate" name="hashed_pw" required="" aria-required="true">
-              <label for="password" class="lato">Password</label>
+              <label for="password">Password</label>
             </div>
           </div>
           <div class="row">
-            <div class="input-field col s6 offset-s3">
+            <div class="input-field">
               <input placeholder="Passwords must match" id="password2" type="password" class="validate" name="hashed_pw" required="" aria-required="true">
-              <label for="password" class="lato">Confirm Password</label>
+              <label for="password">Confirm Password</label>
             </div>
           </div>
           <a id="login" class="waves-effect waves-light btn-large z-depth-4 col s6 offset-s3 white lato" type='submit'>SIGN UP</a>
         </div>
       </form>
-      <h4 align="center">Hangars across the country are available to rent. Please log in to see availabilities.</h4>
+
     </div>
+    <h4 align="center">Hangars across the country are available to rent. Please log in to see availabilities.</h4>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>

@@ -1,3 +1,14 @@
-body {
+.homeBody {
   background: url('../airplanes-pattern-cute-planes-and-clouds_297-541.jpg') center fixed;
+  display: grid;
+  grid-template-columns: 15%, 70%, 15%;
+  grid-template-rows: repeat(1, 1fr);
+  color: black;
+}
+
+.inputField1 {
+  /* grid-column: 2/3;
+  grid-row: 1; */
+  color: black;
+
 }

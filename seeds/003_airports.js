@@ -15,6 +15,8 @@ exports.seed = function(knex, Promise) {
           ap_state: 'CO',
           runway_length: '4100ft'
         },
+      ])
+    })
 
         .then(() => {
   return knex.raw(

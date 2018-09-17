@@ -9,7 +9,7 @@ $("#zipButton" ).click(function() {
   // });
   $.post( "/stuff/airports/ap_zip", {ap_zip: zip})
   .done(function( data ) {
-    console.log( "Data: ", data );
+    console.log( "Data: ", data[0].ap_photo);
   });
 
 });

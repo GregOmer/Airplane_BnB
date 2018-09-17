@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
     table.string('ap_zip', 5).notNullable().defaultTo('')
     table.string('ap_state', 2).notNullable().defaultTo('')
     table.string('runway_length').notNullable().defaultTo('')
+    table.string('ap_photo', 255).notNullable().defaultTo('')
     table.timestamps(true,true)
   })
 };

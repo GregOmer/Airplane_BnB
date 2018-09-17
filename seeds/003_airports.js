@@ -6,14 +6,16 @@ exports.seed = function(knex, Promise) {
           ap_name: 'Vance Brand Municipal Airport',
           ap_zip: 80503,
           ap_state: 'CO',
-          runway_length: '4800ft'
+          runway_length: '4800ft',
+          ap_photo: './BoulderMuni.jpg'
         },
         {
           id: 2,
           ap_name: 'Boulder Municipal Airport',
           ap_zip: 80301,
           ap_state: 'CO',
-          runway_length: '4100ft'
+          runway_length: '4100ft',
+          ap_photo: './BoulderMuni.jpg'
         },
       ])
     })

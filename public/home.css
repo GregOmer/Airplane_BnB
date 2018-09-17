@@ -2,7 +2,7 @@
   background: url('../airplanes-pattern-cute-planes-and-clouds_297-541.jpg') center fixed;
   display: grid;
   grid-template-columns: 15%, 70%, 15%;
-  grid-template-rows: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   color: black;
 }
 
@@ -10,5 +10,16 @@
   grid-column: 2/3;
   grid-row: 1;
   color: black;
+}
+
+/* label color */
+.input-field label {
+   color: #000;
+}
+
+.zipField {
+  grid-column: 2/3;
+  grid-row: 1;
+  background-color: #ffffffbd;
 
 }

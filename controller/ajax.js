@@ -1,9 +1,11 @@
 const knex = require('../knex')
 
 function getOneAirportZip(req, res, next) {
+  console.log(req.body);
   knex('airports')
     .where('ap_zip', req.body.ap_zip)
-    .first()
+
+    // .first()
     .then((result) => {
       res.send(result)
     })
@@ -13,4 +15,4 @@ function getOneAirportZip(req, res, next) {
     })
 }
 
-module.exports = getOneAirportZip;
+module.exports = {getOneAirportZip};

@@ -3,13 +3,25 @@
 }
 
 .loginForm{
+
   display: grid;
   grid-template-columns: 15%, 70%, 15%;
   grid-template-rows: repeat(1, 1fr);
-  color: black;
+  color: #000000;
 }
 
 #inputBody {
   background-color: #ffffffbd;
   color: black;
+}
+/* label color */
+.input-field label {
+   color: #000;
+ }
+
+.btn {
+  background-color: #555f73;
+}
+input {
+  color:black;
 }

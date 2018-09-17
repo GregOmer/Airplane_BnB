@@ -7,7 +7,7 @@ exports.seed = function(knex, Promise) {
           ap_zip: 80503,
           ap_state: 'CO',
           runway_length: '4800ft',
-          ap_photo: './BoulderMuni.jpg'
+          ap_photo: './VanceBrandAirport.jpg'
         },
         {
           id: 2,

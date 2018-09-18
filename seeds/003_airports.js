@@ -6,16 +6,24 @@ exports.seed = function(knex, Promise) {
           ap_name: 'Vance Brand Municipal Airport',
           ap_zip: 80503,
           ap_state: 'CO',
+          coordinates: '40°09′51″N 105°09′49″W',
           runway_length: '4800ft',
-          ap_photo: './VanceBrandAirport.jpg'
+          runway_orientation: '11/29',
+          elevation: '5055ft',
+          ap_photo: './VanceBrandAirport.jpg',
+          number_hangars: 273
         },
         {
           id: 2,
           ap_name: 'Boulder Municipal Airport',
           ap_zip: 80301,
           ap_state: 'CO',
+          coordinates: '40°02′22″N 105°13′33″W',
           runway_length: '4100ft',
-          ap_photo: './BoulderMuni.jpg'
+          runway_orientation: '8/26',
+          elevation: '5288ft',
+          ap_photo: './BoulderMuni.jpg',
+          number_hangars: 115
         },
       ])
     })

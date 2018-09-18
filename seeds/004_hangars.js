@@ -6,7 +6,6 @@ exports.seed = function(knex, Promise) {
           id: 1,
           airport_id: 1,
           ap_name: 'Vance Brand Municipal Airport',
-          number_hangars: 273,
           max_wingspan: '40.1',
           max_length: '30.1',
           max_height: '15.1'
@@ -15,7 +14,6 @@ exports.seed = function(knex, Promise) {
           id: 2,
           airport_id: 2,
           ap_name: 'Boulder Municipal Airport',
-          number_hangars: 115,
           max_wingspan: '40.1',
           max_length: '30.1',
           max_height: '15.1'

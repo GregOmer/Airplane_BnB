@@ -1,14 +1,12 @@
 .homeBody {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 40px;
   background: url('./airplanes-pattern-cute-planes-and-clouds_297-541.jpg') center fixed;
-  display: grid;
-  grid-template-columns: 15%, 70%, 15%;
-  grid-template-rows: repeat(2, 1fr);
   color: black;
 }
 
 .inputField1 {
-  grid-column: 2/3;
-  grid-row: 1;
   color: black;
 }
 
@@ -23,16 +21,12 @@
   background-color: #ffffffbd;
 }
 
-.zipButton {
-  background-color: black;
-
-}
-
 .portResult {
   background-color: #ffffffbd;
   width: 100%;
-  /* grid-template-columns: 15%, 35%, 35%, 15%;
-  grid-auto-rows: repeat(1, 1fr); */
+  display: grid;
+  grid-template-columns: 10%, 40%, 40%, 10%;
+  grid-auto-rows: repeat(1, 1fr);
   font-size: large;
   font-weight: bold;
 
@@ -45,6 +39,14 @@
   grid-column: 2/3;
   grid-row: 1;
 }
+.resultText {
+  grid-column: 3/4;
+  grid-row: 1;
+}
 .font {
   font-family: 'Roboto Slab', serif;
+}
+.nav-wrapper {
+  color: black;
+  background: #ffffffbd;
 }

@@ -17,5 +17,77 @@
       </div>
     </nav>
     <br/>
+    <div class="row">
+      <div class="container">
+        <div class="row">
+          <div class="cartFormBody">
+            <h3>Booking</h3>
+            <!-- table -->
+            <table>
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th class="right-align">Price</th>
+                </tr>
+              </thead>
+
+              <tbody id="order">
+              </tbody>
+            </table>
+
+            <div class="row right-align">
+              <div class="col s3 offset-s3">
+                <p>Subtotal</p>
+              </div>
+              <div class="col s3 offset-s3">
+                <p>$<span id="subtotal">0</span></p>
+              </div>
+            </div>
+
+            <div class="row right-align">
+              <div class="col s3 offset-s3">
+                <p>Total</p>
+              </div>
+              <div class="col s3 offset-s3">
+                <p>$<span id="total">0</span></p>
+              </div>
+            </div>
+            <div class="row valign-wrapper">
+              <i class=" col s1">Name</i>
+              <div class="input-field col s11">
+                <input id="name" type="text" class="left-text" placeholder="Name">
+                <label for="Name"></label>
+              </div>
+            </div>
+            <div class="row valign-wrapper">
+              <i class=" col s1">Phone #</i>
+              <div class="input-field col s11">
+                <input id="phone" type="text" class="left-text" placeholder="XXX-XXX-XXXX">
+                <label for="Phone Number"></label>
+              </div>
+            </div>
+            <div class="row valign-wrapper">
+              <i class=" col s1">Credit Card #</i>
+              <div class="input-field col s11">
+                <input id="address" type="text" class="left-text" placeholder="XXXX-XXXX-XXXX-XXXX">
+                <label for="Address"></label>
+              </div>
+            </div>
+            <div class="row valign-wrapper">
+              <i class=" col s1">CC Expiration</i>
+              <div class="input-field col s11">
+                <input id="address" type="text" class="left-text" placeholder="MM/YY">
+                <label for="Address"></label>
+              </div>
+            </div>
+            <div class="row center-align">
+              <a id="placeOrder" class="waves-effect waves-light btn black white-text"></i>Complete Booking</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </body>
 </html>

@@ -10,7 +10,7 @@ exports.seed = function(knex, Promise) {
           runway_length: '4800ft',
           runway_orientation: '11/29',
           elevation: '5055ft',
-          ap_photo: './VanceBrandAirport.jpg',
+          ap_photo: './VanceBrand.jpg',
           number_hangars: 273
         },
         {

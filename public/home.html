@@ -2,22 +2,26 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="home.css">
     <title>Airplane BnB</title>
   </head>
   <body class='homeBody'>
-    <h1 class="row" align="center">Airplane BnB</h1>
+    <h1 class="row font" align="center">Airplane BnB</h1>
     <div class="zipField row">
       <input class="inputField1" placeholder="Enter airport zip" id="zip" type="text" color="black" name="zip" required="" aria-required="true">
-      <button id="zipButton" class="btn waves-effect waves-light" type="submit" name="action" background-color="black">
+      <button id="zipButton" class="btn waves-effect waves-light" type="submit" name="action">
         Submit
         <a href="home.html"></a>
       </button>
     </div>
-    <div class="row">
-      <img src="BoulderMuni.jpg"/>
+    <div class="portResult row">
+      <img class="imgResult" src="BoulderMuni.jpg"/>
+      <div class="col 2 offset-1 font"> Boulder Municipal Airport
+      </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="./home.js"></script>
   </body>

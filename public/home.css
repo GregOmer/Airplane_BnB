@@ -21,5 +21,30 @@
   grid-column: 2/3;
   grid-row: 1;
   background-color: #ffffffbd;
+}
 
+.zipButton {
+  background-color: black;
+
+}
+
+.portResult {
+  background-color: #ffffffbd;
+  width: 100%;
+  /* grid-template-columns: 15%, 35%, 35%, 15%;
+  grid-auto-rows: repeat(1, 1fr); */
+  font-size: large;
+  font-weight: bold;
+
+}
+.btn{
+  background-color: black;
+
+}
+.imgResult{
+  grid-column: 2/3;
+  grid-row: 1;
+}
+.font {
+  font-family: 'Roboto Slab', serif;
 }

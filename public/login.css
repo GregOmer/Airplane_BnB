@@ -1,5 +1,5 @@
 .loginBody {
-  background: url('../airplanes-pattern-cute-planes-and-clouds_297-541.jpg') center fixed;
+  background: url('./airplanes-pattern-cute-planes-and-clouds_297-541.jpg') center fixed;
 }
 
 .loginForm{
@@ -19,7 +19,7 @@
  }
 
 .btn {
-  background-color: #555f73;
+  background-color: black;
 }
 input {
   color:black;

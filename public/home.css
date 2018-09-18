@@ -36,7 +36,8 @@
 
 }
 .imgResult{
-  grid-column: 2/3;
+  width: 100%;
+  grid-column: 1/2;
   grid-row: 1;
 }
 .resultText {

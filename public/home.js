@@ -6,9 +6,7 @@ $("#zipButton" ).click(function() {
   let zipBar = $('#zipBar')
 
 
-  // $.post("/stuff/airports/ap_zip", zip, function(data, status){
-  //     console.log("Data: ",  data);
-  // });
+
   $.post( "/stuff/airports/ap_zip", {ap_zip: zip})
   .done(function( data ) {
     console.log( "Data: ", data[0]);

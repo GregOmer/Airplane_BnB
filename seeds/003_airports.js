@@ -25,6 +25,18 @@ exports.seed = function(knex, Promise) {
           ap_photo: './BoulderMuni.jpg',
           number_hangars: 115
         },
+        {
+          id: 3,
+          ap_name: 'Rocky Mountain Metropolitan Airport',
+          ap_zip: 80301,
+          ap_state: 'CO',
+          coordinates: '40°02′22″N 105°13′33″W',
+          runway_length: '9000ft',
+          runway_orientation: '12/30',
+          elevation: '5288ft',
+          ap_photo: './BoulderMuni.jpg',
+          number_hangars: 115
+        }
       ])
     })
 

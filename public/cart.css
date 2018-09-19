@@ -2,28 +2,9 @@
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 40px;
-  background: url('./airplanes-pattern-cute-planes-and-clouds_297-541.jpg') center fixed;
+  background: url('./img/airplanes-pattern-cute-planes-and-clouds_297-541.jpg') center fixed;
 }
 
 .cartFormBody {
   background-color: #ffffffbd;
 }
-
-
-/* 
-
-<div class="portResult row">
-  <img class="imgResult" src="BoulderMuni.jpg"/>
-  <div class="font resultText">
-    <h5>Boulder Municipal Airport</h5> <br/>
-    Coordinates: 40°02′22″N 105°13′33″W <br/>
-    Runway: 4100ft <br/>
-    Runway Orientation: 8/26 <br/>
-    Elevation: 5,288ft <br/>
-    Hangars: 115 <br/><br/>
-    <button id="cartButton" class="btn waves-effect waves-light" align="center" type="submit" name="action" href="cart.html">
-
-      <a href="./cart.html">Book Hangar</a>
-    </button>
-  </div>
-</div> */

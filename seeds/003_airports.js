@@ -4,38 +4,44 @@ exports.seed = function(knex, Promise) {
       return knex('airports').insert([{
           id: 1,
           ap_name: 'Vance Brand Municipal Airport',
+          serves: 'Longmont, Colorado',
           ap_zip: 80503,
           ap_state: 'CO',
           coordinates: '40°09′51″N 105°09′49″W',
           runway_length: '4800ft',
           runway_orientation: '11/29',
+          runway_type: 'Concrete',
           elevation: '5055ft',
-          ap_photo: './VanceBrand.jpg',
+          ap_photo: './img/VanceBrand.jpg',
           number_hangars: 273
         },
         {
           id: 2,
           ap_name: 'Boulder Municipal Airport',
+          serves: 'Boulder, Colorado',
           ap_zip: 80301,
           ap_state: 'CO',
           coordinates: '40°02′22″N 105°13′33″W',
           runway_length: '4100ft',
           runway_orientation: '8/26',
+          runway_type: 'Asphalt',
           elevation: '5288ft',
-          ap_photo: './BoulderMuni.jpg',
+          ap_photo: './img/BoulderMuni.jpg',
           number_hangars: 115
         },
         {
           id: 3,
           ap_name: 'Rocky Mountain Metropolitan Airport',
-          ap_zip: 80301,
+          serves: 'Broomfield, Colorado',
+          ap_zip: 80021,
           ap_state: 'CO',
-          coordinates: '40°02′22″N 105°13′33″W',
+          coordinates: '39°54′32″N 105°07′02″W',
           runway_length: '9000ft',
           runway_orientation: '12/30',
-          elevation: '5288ft',
-          ap_photo: './BoulderMuni.jpg',
-          number_hangars: 115
+          runway_type: 'Asphalt',
+          elevation: '5673ft',
+          ap_photo: './img/Jeffco4.jpg',
+          number_hangars: 310
         }
       ])
     })

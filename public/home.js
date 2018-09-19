@@ -14,11 +14,14 @@ $("#zipButton" ).click(function() {
     <img class="imgResult" src="${data[0].ap_photo}"/>
     <div class="font resultText">
     <h5>${data[0].ap_name}</h5><br/>
-    Coordinates: ${data[0].coordinates}<br/>
-    Elevation: ${data[0].elevation}<br/>
-    Runway Length: ${data[0].runway_length}<br/>
-    Runway Orientation: ${data[0].runway_orientation}<br/>
-    Hangar Count: ${data[0].number_hangars}<br/>
+    Serves:  ${data[0].serves}<br/>
+    Coordinates:  ${data[0].coordinates}<br/>
+    Elevation:  ${data[0].elevation}<br/>
+    Runway Length:  ${data[0].runway_length}<br/>
+    Runway Orientation:  ${data[0].runway_orientation}<br/>
+    Runway Type:  ${data[0].runway_type}<br/>
+    Hangar Count:  ${data[0].number_hangars}<br/>
+
     <br/>
     <button id="cartButton" class="btn waves-effect waves-light" align="center" type="submit" name="action" href="cart.html">
 

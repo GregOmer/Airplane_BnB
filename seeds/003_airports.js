@@ -13,7 +13,8 @@ exports.seed = function(knex, Promise) {
           runway_type: 'Concrete',
           elevation: '5055ft',
           ap_photo: './img/VanceBrand.jpg',
-          number_hangars: 273
+          number_hangars: 273,
+          hang_amenity: 'Heat, Potable Water'
         },
         {
           id: 2,
@@ -27,7 +28,8 @@ exports.seed = function(knex, Promise) {
           runway_type: 'Asphalt',
           elevation: '5288ft',
           ap_photo: './img/BoulderMuni.jpg',
-          number_hangars: 115
+          number_hangars: 115,
+          hang_amenity: 'Potable Water'
         },
         {
           id: 3,
@@ -41,7 +43,8 @@ exports.seed = function(knex, Promise) {
           runway_type: 'Asphalt',
           elevation: '5673ft',
           ap_photo: './img/Jeffco4.jpg',
-          number_hangars: 310
+          number_hangars: 310,
+          hang_amenity: 'Heat, Full Bathroom'
         }
       ])
     })

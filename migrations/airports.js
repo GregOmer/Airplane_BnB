@@ -12,6 +12,7 @@ exports.up = function(knex, Promise) {
     table.string('elevation',20).notNullable().defaultTo('')
     table.string('ap_photo', 255).notNullable().defaultTo('')
     table.integer('number_hangars', 10).notNullable().defaultTo(0)
+    table.string('hang_amenity', 255).notNullable().defaultTo('')
     table.timestamps(true,true)
   })
 };

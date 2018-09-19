@@ -24,6 +24,7 @@ $("#zipButton" ).click(function() {
     Runway Orientation:  ${data[0].runway_orientation}<br/>
     Runway Type:  ${data[0].runway_type}<br/>
     Hangar Count:  ${data[0].number_hangars}<br/>
+    Hangar Amenities:  ${data[0].hang_amenity}<br/>
 
     <br/>
     <button id="cartButton" class="btn waves-effect waves-light" align="center" type="submit" name="action" href="cart.html">

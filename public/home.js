@@ -10,7 +10,7 @@ $("#zipButton" ).click(function() {
   $.post( "/stuff/airports/ap_zip", {ap_zip: zip})
   .done(function( data ) {
     console.log( "Data: ", data[0]);
-    zipBar.append ( `<br/><div class="portResult row">
+    zipBar.prepend ( `<br/><div class="portResult row">
     <img class="imgResult" src="${data[0].ap_photo}"/>
     <div class="font resultText">
     <h5>${data[0].ap_name}</h5><br/>

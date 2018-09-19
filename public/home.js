@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
 
+
+
 $("#zipButton" ).click(function() {
   let zip = $('.inputField1').val()
   let zipBar = $('#zipBar')
@@ -10,6 +12,7 @@ $("#zipButton" ).click(function() {
   $.post( "/stuff/airports/ap_zip", {ap_zip: zip})
   .done(function( data ) {
     console.log( "Data: ", data[0]);
+    localStorage.setItem('AP Name', data[0].ap_name)
     zipBar.prepend ( `<br/><div class="portResult row">
     <img class="imgResult" src="${data[0].ap_photo}"/>
     <div class="font resultText">
@@ -24,7 +27,6 @@ $("#zipButton" ).click(function() {
 
     <br/>
     <button id="cartButton" class="btn waves-effect waves-light" align="center" type="submit" name="action" href="cart.html">
-
     <a href="./cart.html">Book Hangar</a>
     </button>
     </div>
@@ -32,5 +34,18 @@ $("#zipButton" ).click(function() {
   });
   console.log("zip ",zip)
 });
+
+let booking = document.getElementById('booking')
+
+
+
+let port = localStorage.getItem('AP Name');
+portName = document.createElement('h2');
+portName.className = 'portt';
+portName.innerText = "Booking for: " + port;
+booking.appendChild(portName);
+
+
+
 
 });

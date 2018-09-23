@@ -3,6 +3,7 @@
 }
 
 .loginForm{
+
   display: grid;
   grid-template-columns: 15%, 70%, 15%;
   grid-template-rows: repeat(1, 1fr);
@@ -15,12 +16,21 @@
 }
 /* label color */
 .input-field label {
-   color: #000;
- }
+  margin-left: 1%;
+  color: #000;
+  padding-left: 25px;
+}
+::placeholder {
+  padding-left: 25px;
+
+}
 
 .btn {
   background-color: black;
 }
 input {
   color:black;
+}
+.inputBody {
+  border: 1px solid #ffffffbd;
 }
